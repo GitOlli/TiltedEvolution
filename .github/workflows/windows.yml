@@ -1,12 +1,8 @@
 name: Build windows
 
 on:
-  pull_request:
-  push:
-    branches:
-      - master
-      - bluedove
-      - prerel
+  workflow_dispatch:
+  
 jobs:
   build:
     strategy:
